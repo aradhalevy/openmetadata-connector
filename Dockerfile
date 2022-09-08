@@ -10,4 +10,4 @@ USER 10001
 EXPOSE 8080
 
 ENTRYPOINT ["/openmetadata-connector"]
-CMD [ "run" ]
+CMD [ "run", "--port", "80" ]
